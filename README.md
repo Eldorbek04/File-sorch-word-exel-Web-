@@ -4,4 +4,4 @@
 #### Foydasi: Juda tez qidiruv menyusiga ega
 #### Qo'llanilishi: Biron test payitida foydalanish mumkin Online testlar yokida Kompyuterda ishlanadigan testlarda (Test savollari bo'lgan taqdirdagina!)
 
-# Ishlashi: https://eldorbek04.github.io/File-sorch-word-exel-Web-/
+## Ishlashi: https://eldorbek04.github.io/File-sorch-word-exel-Web-/
