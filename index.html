@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tezkor Savol Javob</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./rasim.png" type="image/png"/>
+</head>
+
+<body>
+    <div class="container-wrapper">
+        <!-- 🔹 1-QIDIRUV PANELI -->
+        <div class="card-container scrollable-card">
+            <h3>Tezkor Savol-Javob Qidiruvi</h3>
+            <div class="header">
+                <input type="text" id="searchInput1" placeholder="Savol yoki javob bo'yicha qidiruv..."
+                    class="search-input" onkeyup="filterData(1)" />
+                <button class="search-button" onclick="filterData(1)">Qidirish</button>
+            </div>
+            <div class="content" id="resultsContainer1">
+                <p class="no-results">Ma'lumotlar yuklanmoqda. Qidiruvni boshlashingiz mumkin.</p>
+            </div>
+        </div>
+
+        <!-- 🔹 2-QIDIRUV PANELI -->
+        <div class="card-container scrollable-card">
+            <h3>Tezkor Savol-Javob Qidiruvi</h3>
+            <div class="header">
+                <input type="text" id="searchInput2" placeholder="Savol yoki javob bo'yicha qidiruv..."
+                    class="search-input" onkeyup="filterData(2)" />
+                <button class="search-button" onclick="filterData(2)">Qidirish</button>
+            </div>
+            <div class="content" id="resultsContainer2">
+                <p class="no-results">Ma'lumotlar yuklanmoqda. Qidiruvni boshlashingiz mumkin.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Kutubxonalar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/mammoth@1.6.0/mammoth.browser.js"></script>
+    <script src="./app.js"></script>
+    <script src="./hacker.js"></script>
+
+</body>
+
+</html>
